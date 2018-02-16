@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1605155E203712D300A386CB"
                BuildableName = "SegueTester.app"
                BlueprintName = "SegueTester"
-               ReferencedContainer = "container:SegueTester.xcodeproj">
+               ReferencedContainer = "container:iOS-Tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "1605155E203712D300A386CB"
             BuildableName = "SegueTester.app"
             BlueprintName = "SegueTester"
-            ReferencedContainer = "container:SegueTester.xcodeproj">
+            ReferencedContainer = "container:iOS-Tutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "1605155E203712D300A386CB"
             BuildableName = "SegueTester.app"
             BlueprintName = "SegueTester"
-            ReferencedContainer = "container:SegueTester.xcodeproj">
+            ReferencedContainer = "container:iOS-Tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "1605155E203712D300A386CB"
             BuildableName = "SegueTester.app"
             BlueprintName = "SegueTester"
-            ReferencedContainer = "container:SegueTester.xcodeproj">
+            ReferencedContainer = "container:iOS-Tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

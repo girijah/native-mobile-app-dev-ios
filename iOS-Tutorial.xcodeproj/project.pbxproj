@@ -12,6 +12,7 @@
 		16051568203712D300A386CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16051566203712D300A386CB /* Main.storyboard */; };
 		1605156A203712D300A386CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16051569203712D300A386CB /* Assets.xcassets */; };
 		1605156D203712D300A386CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1605156B203712D300A386CB /* LaunchScreen.storyboard */; };
+		16051575203715CB00A386CB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16051574203715CB00A386CB /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16051569203712D300A386CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1605156C203712D300A386CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1605156E203712D300A386CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16051574203715CB00A386CB /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				16051569203712D300A386CB /* Assets.xcassets */,
 				1605156B203712D300A386CB /* LaunchScreen.storyboard */,
 				1605156E203712D300A386CB /* Info.plist */,
+				16051574203715CB00A386CB /* ResultViewController.swift */,
 			);
 			path = SegueTester;
 			sourceTree = "<group>";
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1605155A203712D300A386CB /* Build configuration list for PBXProject "SegueTester" */;
+			buildConfigurationList = 1605155A203712D300A386CB /* Build configuration list for PBXProject "iOS-Tutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,6 +142,7 @@
 			files = (
 				16051565203712D300A386CB /* ViewController.swift in Sources */,
 				16051563203712D300A386CB /* AppDelegate.swift in Sources */,
+				16051575203715CB00A386CB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 				DEVELOPMENT_TEAM = 48GC2PXZGE;
 				INFOPLIST_FILE = SegueTester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coresparker.SegueTester;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresparker.goinon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +283,7 @@
 				DEVELOPMENT_TEAM = 48GC2PXZGE;
 				INFOPLIST_FILE = SegueTester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coresparker.SegueTester;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coresparker.goinon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -288,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1605155A203712D300A386CB /* Build configuration list for PBXProject "SegueTester" */ = {
+		1605155A203712D300A386CB /* Build configuration list for PBXProject "iOS-Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1605156F203712D300A386CB /* Debug */,
@@ -304,6 +308,7 @@
 				16051573203712D300A386CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
