@@ -20,7 +20,7 @@ class ResultViewController: UIViewController {
     
     var occupation:String!
     
-    var age:Int = 0
+    var age:Int!
     
     
     override func viewDidLoad() {
@@ -31,9 +31,15 @@ class ResultViewController: UIViewController {
         occupationLabel.layer.cornerRadius = 5
         
         nameLabel.text = name
-        ageLabel.text = String(age)
         occupationLabel.text = occupation
-    }
+
+            if age == nil {
+                ageLabel.text = ""
+                print("Age nil")
+            } else {
+                ageLabel.text = String(age)
+            }
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
