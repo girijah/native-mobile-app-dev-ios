@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="mfn-D2-CJe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="543499505.26343">
+                                    <!--2018-03-23 12:05:05 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="firstDatePicked:" destination="BYZ-38-t0r" eventType="valueChanged" id="kpE-nv-59w"/>
+                                </connections>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Lj-o1-bE4">
+                                <rect key="frame" x="0.0" y="236" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="543499539.23219001">
+                                    <!--2018-03-23 12:05:39 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="secondDatePicked:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZZA-gI-Rc6"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j56-rf-Lce">
+                                <rect key="frame" x="16" y="477" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7om-TD-HqK">
+                                <rect key="frame" x="16" y="513" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days Until" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j84-HE-lOX">
+                                <rect key="frame" x="16" y="552" width="78" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weeks and Dates Until" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKS-5a-AC0">
+                                <rect key="frame" x="16" y="591" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Lj-o1-bE4" firstAttribute="top" secondItem="mfn-D2-CJe" secondAttribute="bottom" constant="20" id="6vP-rJ-kVI"/>
+                            <constraint firstItem="0Lj-o1-bE4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AP0-QS-1Z0"/>
+                            <constraint firstItem="7om-TD-HqK" firstAttribute="top" secondItem="j56-rf-Lce" secondAttribute="bottom" constant="15" id="F4C-iP-mKd"/>
+                            <constraint firstItem="j84-HE-lOX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FEj-jb-gXB"/>
+                            <constraint firstItem="j84-HE-lOX" firstAttribute="top" secondItem="7om-TD-HqK" secondAttribute="bottom" constant="18" id="G1B-Dv-xVs"/>
+                            <constraint firstItem="mfn-D2-CJe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nfb-Tj-vwv"/>
+                            <constraint firstItem="0Lj-o1-bE4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QVO-oy-rE0"/>
+                            <constraint firstItem="j56-rf-Lce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XYy-J6-8Dk"/>
+                            <constraint firstItem="mfn-D2-CJe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cCJ-5l-KZY"/>
+                            <constraint firstItem="mfn-D2-CJe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ns7-Qd-NMp"/>
+                            <constraint firstItem="j56-rf-Lce" firstAttribute="top" secondItem="0Lj-o1-bE4" secondAttribute="bottom" constant="25" id="oYT-AN-tf9"/>
+                            <constraint firstItem="GKS-5a-AC0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="p1t-uV-rL8"/>
+                            <constraint firstItem="GKS-5a-AC0" firstAttribute="top" secondItem="j84-HE-lOX" secondAttribute="bottom" constant="18" id="qgU-Ay-7y2"/>
+                            <constraint firstItem="7om-TD-HqK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tKd-I9-q5A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePickerFirst" destination="mfn-D2-CJe" id="QBx-Rd-Ocq"/>
+                        <outlet property="datePickerSecond" destination="0Lj-o1-bE4" id="WQH-Eh-K9K"/>
+                        <outlet property="daysUntilLabel" destination="j84-HE-lOX" id="Lk2-hj-8cy"/>
+                        <outlet property="firstDateLabel" destination="j56-rf-Lce" id="wiX-31-uLs"/>
+                        <outlet property="secondDateLabel" destination="7om-TD-HqK" id="pGR-48-JrT"/>
+                        <outlet property="weeksAndDatesUntilLabel" destination="GKS-5a-AC0" id="UBX-IX-M2t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
